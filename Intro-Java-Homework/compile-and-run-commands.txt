@@ -1,0 +1,15 @@
+C:\Users\Anton>E:
+
+E:\>cd E:\SoftUni\Java Basics\Homeworks\Intro-Java-Homework\src
+
+E:\SoftUni\Java Basics\Homeworks\Intro-Java-Homework\src>javac SumTwoNumbers.java
+
+E:\SoftUni\Java Basics\Homeworks\Intro-Java-Homework\src>java SumTwoNumbers 4 5
+Please enter first number: 4
+Please enter second number: 5
+Result is: 9
+
+E:\SoftUni\Java Basics\Homeworks\Intro-Java-Homework\src>java SumTwoNumbers
+Please enter first number: 6
+Please enter second number: 7
+Result is: 13
