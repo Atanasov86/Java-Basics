@@ -7,6 +7,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
 import java.io.FileOutputStream;
+import java.util.Locale;
 
 public class GeneratePDF {
     public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class GeneratePDF {
             PdfPTable table = new PdfPTable(4);
             table.setWidthPercentage(100);
             table.getDefaultCell().setFixedHeight(180);
-            BaseFont baseFont = BaseFont.createFont("c:/windows/fonts/times.ttf", BaseFont.IDENTITY_H, true);
+            BaseFont baseFont = BaseFont.createFont("c:/windows/fonts/arialbd.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
             Font blackFont = new Font(baseFont, 75f, 0, BaseColor.BLACK);
             Font redFont = new Font(baseFont, 75f, 0, BaseColor.RED);
             String[] cards = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K",};
