@@ -6,7 +6,7 @@ public class FormattingNumbers {
         int a = scanner.nextInt();
         double b = scanner.nextDouble();
         double c = scanner.nextDouble();
-        String aToHex = Integer.toHexString(a);
+        String aToHex = Integer.toHexString(a).toUpperCase();
         int aToBinary = Integer.parseInt(Integer.toBinaryString(a));
         System.out.printf("|%1$-10s|%2$010d|%3$10.2f|%4$-10.3f|", aToHex, aToBinary, b, c);
     }
